@@ -37,7 +37,7 @@ export default function Feature() {
           <Grid item xs={12} md={6} lg={4} >
             <Item sx={{ minHeight: 100 }}><StarBorderOutlined color='secondary' sx={{ fontSize: '35px'}} />
 
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Review system built into the user facing menu. Own your own review system.</Typography>
+              <Typography color='primary' textTransform='none' sx={{p:2}} >Review page built into the user facing menu. Own your own review eco-system.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
@@ -47,7 +47,7 @@ export default function Feature() {
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <Item sx={{ minHeight: 100 }}  > <AddCommentOutlined color='secondary' sx={{ fontSize: '35px' }} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Comments system built into the user facing menu. Own your own commnents system.</Typography>
+              <Typography color='primary' textTransform='none' sx={{p:2}} >Comments system built into the user facing menu. Users can comment, like and reply on a dish.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
