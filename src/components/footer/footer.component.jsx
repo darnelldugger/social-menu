@@ -1,5 +1,4 @@
 import { Container, Grid, Typography, Link, Divider } from "@mui/material";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as Facebook } from "../../assets/icon-facebook.svg";
 import { ReactComponent as Instagram } from "../../assets/icon-instagram.svg";
 import { ReactComponent as Twitter } from "../../assets/icon-twitter.svg";
