@@ -10,10 +10,10 @@ const NavBar = () => {
         container
         justifyContent="space-between"
         alignItems="center"
-        sx={{ margin: "30px 0 30px 0" }}
+        sx={{ margin: "50px 0 100px 0" }}
       >
         <Grid item xs={3.5}>
-          <Typography  variant="h5" fontWeight={900} sx={{ fontSize: { xs: "18px", sm: "27px", md: "46px" } }}>social menu</Typography>
+          <Typography  variant="h5" fontWeight={900} sx={{ fontSize: { xs: "18.5px", sm: "27px", md: "46px" } }}>social menu</Typography>
         </Grid>
         <Grid item container xs={8.5} sx={{ justifyContent: "right" }}>
           <ButtonSecondary />
