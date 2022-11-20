@@ -18,7 +18,7 @@ export default function Feature() {
   return (
     <Container maxWidth="lg">
       <Divider variant='middle' />
-      <Box sx={{ maxWidth: '100%', mt: 8 }}>
+      <Box sx={{ maxWidth: '100%', mt: 5 }}>
         <Typography
           variant="h1"
           sx={{ display: 'flex', justifyContent: 'center', mb: 5, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
@@ -28,7 +28,7 @@ export default function Feature() {
         <Grid container rowSpacing={{ xs: 3, sm: 6, md: 6 }} columnSpacing={{ xs: 3, sm: 3, md: 3 }}
           sx={{
             padding: {
-              xs: "50px 50px 50px 50px",
+              xs: "10px 5px 45px 5px",
               sm: "50px 58px",
               md: "10px 10px 160px 10px",
             },

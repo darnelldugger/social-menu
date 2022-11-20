@@ -7,7 +7,7 @@ import heroImage from "../../assets/image-hero-portrait@2x.webp";
 
 const Hero = () => {
   return (
-    <Container maxWidth="lg" sx={{ marginBottom: { xs: "100px" } }}>
+    <Container maxWidth="lg" sx={{ marginBottom: { xs: "50px" } }}>
       <Grid container>
         <Grid
           item
