@@ -36,7 +36,7 @@ const Hero = () => {
           </Typography>
           <div className="hero-p">
             <Typography variant="body1">
-              Social menu is the new way to drive engagement and interactivity while search goers are on your mmenu. We pride ourselves in making it easier for you to add photos of your dishes. Intergrating the best parts of social media with a menu your patrons would love.{" "}
+              Social menu is the new way to drive engagement and interactivity while search goers are on your menu. We pride ourselves in making it easier for you to add photos of your dishes. Intergrating the best parts of social media with a menu your patrons would love.{" "}
             </Typography>
           </div>
           <ButtonPrimary />
