@@ -35,69 +35,198 @@ export default function Feature() {
           }}
         >
           <Grid item xs={12} md={6} lg={4} >
-            <Item sx={{ minHeight: 100 }}><StarBorderOutlined color='secondary' sx={{ fontSize: '35px'}} />
-
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Review page built into the user facing menu. Own your own review eco-system.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }}><StarBorderOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Review system
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Review page built into the user facing menu. Own your own review eco-system.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><EmojiEmotionsOutlined color='secondary' sx={{ fontSize: '35px' }} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Users are able to add emojis when commenting on a dish. Making it more sociable.</Typography>
+            <Item  elevation={6} sx={{ minHeight: 100 }} ><EmojiEmotionsOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Emoji keyboard
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Users are able to add emojis when commenting on a dish. Making it more sociable.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }}  > <AddCommentOutlined color='secondary' sx={{ fontSize: '35px' }} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Comments system built into the user facing menu. Users can comment, like and reply on a dish.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }}  > <AddCommentOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Comments system
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Comments system built into the user facing menu. Users can comment, like and reply on a dish.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><MobileFriendlyOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}}>Mobile responsive. Fully responsive menu built for mobile, tablet and desktop view.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><MobileFriendlyOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Ditch pdf's
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Mobile responsive. Fully responsive menu built for mobile, tablet and desktop view.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><RecommendOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Recommendations system built into the user facing menu to keep users engaged.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><RecommendOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Recommend dishes
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Dishes are added to this page based on being recommeneded by users. </Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}}>Interactive dashboard built to help you upload photos of your dishes fast and efficiently</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Admin dashboard
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Interactive dashboard built to help you upload photos of your dishes fast and efficiently</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><QrCode2Outlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}}>Contactless menus. Our QR code technology will help you save while being safe.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><QrCode2Outlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                QR codes
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Contactless menus are here to stay. Create a QR code for your menu link.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><FilterDramaOutlined color='secondary' sx={{ fontSize: '35px' }} />
-              <Typography color='primary' textTransform='none' sx={{p:2}}>Hosting data in the cloud brings powerful security keeping users information safe.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><FilterDramaOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Cloud Hosting
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Hosting data in the cloud brings powerful security keeping users information safe.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><SupportAgentOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >24/7 support to help build and maintain your menu. Just add photos of your dishes.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SupportAgentOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Help & support
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >24/7 support to help build and maintain your menu. Just add photos of your dishes.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><EqualizerRounded color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Analytics dashboard to help you understand click through rates on specific dishes.</Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><EqualizerRounded color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Analytics dashboard
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Analytics dashboard to help you understand click through rates on specific dishes.</Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><SendOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Utilize cloud messaging to send pre-defined offers to yours subscribers. </Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SendOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Messaging
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Utilize cloud messaging to send pre-defined offers to yours subscribers. </Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><SmartToyOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Built in machine learning to train your menu to understand user behavior for direct marketing. </Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SmartToyOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                Machine learning
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Built in machine learning to train your menu to understand user behavior for direct marketing. </Typography>
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item sx={{ minHeight: 100 }} ><PeopleAltOutlined color='secondary' sx={{ fontSize: '35px'}} />
-              <Typography color='primary' textTransform='none' sx={{p:2}} >Built in user authentication. Ability to sign in with Google, Facebook, Apple, email or phone number. </Typography>
+            <Item elevation={6} sx={{ minHeight: 100 }} ><PeopleAltOutlined color='secondary' sx={{ fontSize: '35px' }} />
+              <Typography
+                variant="h5"
+                color='text.primary'
+                sx={{
+                  textAlign: 'center', fontSize: '24px',
+                  textTransform: 'none'
+                }}
+              >
+                User authentication
+              </Typography>
+              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Built in user authentication. Ability to sign in with Google, Facebook, Apple, email or phone number. </Typography>
             </Item>
           </Grid>
 

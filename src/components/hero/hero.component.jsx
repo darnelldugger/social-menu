@@ -29,10 +29,10 @@ const Hero = () => {
 
           <Typography
             variant="h1"
-            sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
+            sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "38px", sm: "46px", md: "62px" } }}
           >
-            The <strong>menu solution</strong> <br /> for your
-            <strong> restaurant.</strong>
+            Integrating <strong>social media</strong> <br /> with
+            <strong> restaurant menus.</strong>
           </Typography>
           <div className="hero-p">
             <Typography variant="subtitle1" color= 'text.primary' sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, maxWidth: { xs: 460, sm: 325 }, pl: { xs: 3, sm: 0 }, pr: { xs: 3, sm: 0 } }}>

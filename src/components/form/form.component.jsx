@@ -8,6 +8,7 @@ const Form = () => {
 
       <Container maxWidth="lg">
         <Card sx={{ mb: 6 }}>
+          <Paper elevation={6} >
           <Typography
             color='text.secondary'
             variant="h1"
@@ -43,9 +44,10 @@ const Form = () => {
                 It's just <strong>better.</strong>
               </Typography>
               <Typography variant="subtitle1" sx={{ marginBottom: "40px" }}>
-                “I really like how it is an all-in-one solution that handle many
-                of the tasks that you would normally need separate tools to do
-                the same job. This thing is a miracle worker.”
+                “For a restaurant, the menu is the face of their business. The core that attracts 
+                people to their establishment. Our goal is to bring more photos of dishes to menus
+                and automate the menu for the restaurant. Our menu software allows restaurant owners 
+                to provide a better experience to their customers across the internet.”
               </Typography>
             </Grid>
 
@@ -60,7 +62,8 @@ const Form = () => {
                 <Paper
                   style={{ backgroundColor: "#ffffff" }}
 
-                  elevation={8} sx={{ width: "100%", p: "1rem" }}
+                  elevation={24} 
+                  sx={{ width: "100%", p: "1rem" }}
                 >
                     <Typography
                 variant="subtitle1"
@@ -146,6 +149,7 @@ const Form = () => {
             </Grid>
 
           </Grid>
+          </Paper>
         </Card>
       </Container>
     </>
