@@ -7,7 +7,7 @@ import AppBar from '@mui/material/AppBar';
 const NavBar = () => {
   return (
     <Box sx={{ flexGrow: 1, mb: 5 }}>
-    <AppBar position="static" sx={{}} style={{ backgroundColor: '#ffffff' }}>
+    <AppBar position="static" sx={{ p:1 }} style={{ backgroundColor: '#ffffff' }}>
       <Toolbar>
         <Typography variant="h3" fontSize='30px' color='text.primary' component="div" sx={{ flexGrow: 1 }}>
           social menu
