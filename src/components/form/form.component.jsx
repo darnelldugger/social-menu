@@ -62,6 +62,18 @@ const Form = () => {
 
                   elevation={8} sx={{ width: "100%", p: "1rem" }}
                 >
+                    <Typography
+                variant="subtitle1"
+                color="text.primary"
+                sx={{
+                  fontWeight: "400",
+                  marginBottom: "5px",
+                  textAlign: { xs: "center", md: "left" },
+                  textTransform: 'none'
+                }}
+              >
+                Fill out the form below to get access to the demo
+              </Typography>
                   <form
                     autoComplete='off'
                   // onSubmit={handleSubmit}
@@ -126,7 +138,7 @@ const Form = () => {
                       sx={{ mt: 2, textTransform: 'none', fontSize: '18px' }}
                       variant='contained'
                       type="submit">
-                      Get demo
+                      Get demo access
                     </Button>
                   </form>
                 </Paper>

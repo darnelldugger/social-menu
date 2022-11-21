@@ -1,25 +1,21 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Typography, Box, Toolbar } from "@mui/material";
 import ButtonSecondary from "./buttons/button-secondary.component";
+import AppBar from '@mui/material/AppBar';
 
 
 
 const NavBar = () => {
   return (
-    <Container maxWidth="lg">
-      <Grid
-        container
-        justifyContent="space-between"
-        alignItems="center"
-        sx={{ margin: "50px 0 100px 0" }}
-      >
-        <Grid item xs={3.5}>
-          <Typography  variant="h5" fontWeight={900} sx={{ fontSize: { xs: "18.5px", sm: "27px", md: "46px" } }}>social menu</Typography>
-        </Grid>
-        <Grid item container xs={8.5} sx={{ justifyContent: "right" }}>
-          <ButtonSecondary />
-        </Grid>
-      </Grid>
-    </Container>
+    <Box sx={{ flexGrow: 1, mb: 5 }}>
+    <AppBar position="static" sx={{}} style={{ backgroundColor: '#ffffff' }}>
+      <Toolbar>
+        <Typography variant="h3" fontSize='30px' color='text.primary' component="div" sx={{ flexGrow: 1 }}>
+          social menu
+        </Typography>
+        <ButtonSecondary />
+      </Toolbar>
+    </AppBar>
+  </Box>
   );
 };
 
