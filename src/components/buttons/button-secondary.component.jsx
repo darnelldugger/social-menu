@@ -8,11 +8,11 @@ const ButtonSecondary = () => {
       sx={{
         fontSize: { xs: "12px", sm: "16px" },
         borderWidth: 2,
-        color: '#5e2791'
+        color: '#38b6ff'
         
       }}
     >
-      Request demo access
+      Get demo access
     </StyledButtonSecondary>
   );
 };

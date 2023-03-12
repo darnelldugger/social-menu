@@ -2,16 +2,21 @@ import { Button } from "@mui/material";
 import styled from "@emotion/styled";
 
 export const StyledButtonLogin = styled(Button)({
-  borderRadius: "20px",
+  borderRadius: "30px",
   backgroundImage: "none",
   transition: "all .3s",
   backgroundColor: '#5e2791',
   fontWeight: '700',
+  borderWidth: 2,
+  color: 'white',
 
 
   "&:hover": {
-    backgroundImage:
-      "linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #7cc1ec 100%)",
+    backgroundColor: 'white',
     transition: "all .3s",
+    borderColor: '#5e2791',
+    color: '#5e2791',
+    borderWidth: 2,
+    
   },
 });

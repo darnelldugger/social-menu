@@ -7,8 +7,8 @@ const Form = () => {
 
 
       <Container maxWidth="lg">
-        <Card sx={{ mb: 6 }}>
-          <Paper elevation={6} >
+        <Card sx={{ mb: 6, backgroundColor: '#5e2791' }}>
+          <Paper elevation={6} sx={{ backgroundColor: '#5e2791'  }}>
           <Typography
             color='text.secondary'
             variant="h1"
@@ -138,7 +138,7 @@ const Form = () => {
                     <Button
                       color='secondary'
                       fullWidth
-                      sx={{ mt: 2, textTransform: 'none', fontSize: '18px' }}
+                      sx={{ mt: 2, textTransform: 'none', fontSize: '18px', backgroundColor: '#38b6ff' }}
                       variant='contained'
                       type="submit">
                       Get demo access

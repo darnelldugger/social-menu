@@ -29,7 +29,7 @@ export const themeOptions = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Montserrat" , sans-serif',
+    fontFamily: '"Epilogue" , sans-serif',
     h1: {
       fontWeight: 400,
       fontSize: 72,

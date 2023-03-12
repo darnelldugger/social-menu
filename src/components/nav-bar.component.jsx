@@ -43,7 +43,7 @@ function ResponsiveAppBar() {
             alt="logo"
             sx={{
               height: 45,
-              maxHeight: { xs: 30, md: 45 },
+              maxHeight: { xs: 35, md: 45 },
             }}
           />
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
