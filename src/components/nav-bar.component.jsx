@@ -12,7 +12,7 @@ const NavBar = () => {
           <Typography variant="h4" fontSize='30px' color='text.primary' component="div" sx={{ flexGrow: 1 }}>
             <img
               src="https://res.cloudinary.com/nell1818/image/upload/v1678580542/MENUUI_1_fiabjv.png"
-              height={30}
+              height={60}
               alt="logo"
             />
           </Typography>
