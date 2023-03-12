@@ -1,12 +1,13 @@
 import { Button } from "@mui/material";
 import styled from "@emotion/styled";
 
-export const StyledButtonPrimary = styled(Button)({
+export const StyledButtonLogin = styled(Button)({
   borderRadius: "20px",
-  padding: "15px 31px",
   backgroundImage: "none",
   transition: "all .3s",
-  
+  backgroundColor: '#5e2791',
+  fontWeight: '700',
+
 
   "&:hover": {
     backgroundImage:

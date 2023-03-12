@@ -1,26 +1,148 @@
-import { Typography, Box, Toolbar } from "@mui/material";
+
 import ButtonSecondary from "./buttons/button-secondary.component";
+import ButtonLogin from "./buttons/button-login.component";
+import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import NotesIcon from '@mui/icons-material/Notes';
+import Container from '@mui/material/Container';
+import Button from '@mui/material/Button';
+import MenuItem from '@mui/material/MenuItem';
+
+const pages = ['Products', 'Pricing', 'Blog'];
+const pagesMobile = ['Products', 'Pricing', 'Blog', 'Request Demo', 'Login'];
+
+function ResponsiveAppBar() {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+ 
+
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
 
 
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
-const NavBar = () => {
+ 
+
   return (
-    <Box sx={{ flexGrow: 1, mb: 5 }}>
-      <AppBar position="static" sx={{ p: 1 }} style={{ backgroundColor: '#ffffff' }}>
-        <Toolbar>
-          <Typography variant="h4" fontSize='30px' color='text.primary' component="div" sx={{ flexGrow: 1 }}>
+    <AppBar position="static"  sx={{ pb:1, pt:1, mb:3, backgroundColor: 'white' }}>
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
             <img
               src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
               height={45}
               alt="logo"
             />
           </Typography>
-          <ButtonSecondary />
-        </Toolbar>
-      </AppBar>
-    </Box>
-  );
-};
 
-export default NavBar;
+       
+        
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'none' },
+              flexGrow: 1,
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            <img
+              src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
+              height={45}
+              alt="logo"
+            />
+          </Typography>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
+            /navigation before mobile view
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'text.primary', display: 'block', textTransform: 'none', fontWeight:'300' }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end'  }}>
+
+          <ButtonLogin />
+          <ButtonSecondary />
+          </Box>
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent: 'flex-end' } }}>
+            <IconButton
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="text.primary"
+            >
+              <NotesIcon 
+              sx={{ fontSize: 30 }}
+              />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none', backgroundColor: 'inherit' },
+                
+              }}
+              
+            >
+              {pagesMobile.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography color='text.secondary' textAlign="center">{page}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
+}
+export default ResponsiveAppBar;

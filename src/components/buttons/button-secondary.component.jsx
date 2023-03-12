@@ -4,10 +4,12 @@ const ButtonSecondary = () => {
   return (
     <StyledButtonSecondary
       variant="outlined"
+      size= 'small'
       sx={{
-        padding: { xs: "12px 16px", sm: "12px 24px" },
         fontSize: { xs: "12px", sm: "16px" },
-        textTransform: 'none'
+        borderWidth: 2,
+        color: '#5e2791'
+        
       }}
     >
       Request demo access
