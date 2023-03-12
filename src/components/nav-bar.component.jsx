@@ -1,4 +1,4 @@
-import { Typography, Box, Toolbar } from "@mui/material";
+import {  Box, Toolbar } from "@mui/material";
 import ButtonSecondary from "./buttons/button-secondary.component";
 import AppBar from '@mui/material/AppBar';
 
