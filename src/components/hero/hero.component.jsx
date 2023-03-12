@@ -29,6 +29,7 @@ const Hero = () => {
 
           <Typography
             variant="h1"
+            color= 'text.alert'
             sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "38px", sm: "46px", md: "62px" } }}
           >
             Integrating <strong>social media</strong> <br /> with

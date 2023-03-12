@@ -20,6 +20,7 @@ export const themeOptions = createTheme({
     text: {
       secondary: "#faf8f6",
       primary: "#737373",
+      alert: "545454",
       disabled: "rgba(254,254,254,0.8)",
     },
   },
