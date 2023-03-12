@@ -232,6 +232,7 @@ export default function Feature() {
 
         </Grid>
       </Box>
+      <Divider />
     </Container>
   );
 }

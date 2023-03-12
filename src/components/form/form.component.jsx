@@ -8,11 +8,10 @@ const Form = () => {
 
       <Container maxWidth="lg">
         <Card sx={{ mb: 6, backgroundColor: '#5e2791' }}>
-          <Paper elevation={6} sx={{ backgroundColor: '#5e2791'  }}>
           <Typography
             color='text.secondary'
             variant="h1"
-            sx={{ display: 'flex', justifyContent: 'center', mb: 1, mt: 5, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
+            sx={{ display: 'flex', justifyContent: 'center', mb: 0, mt: 5, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
           >
             <strong> Try the demo today</strong>
           </Typography>
@@ -23,7 +22,7 @@ const Form = () => {
             rowSpacing={4}
             sx={{
               padding: {
-                xs: "50px 16px",
+                xs: "10px 16px",
                 sm: "50px 58px",
                 md: "50px 25px 50px 25px",
               },
@@ -149,7 +148,6 @@ const Form = () => {
             </Grid>
 
           </Grid>
-          </Paper>
         </Card>
       </Container>
     </>
