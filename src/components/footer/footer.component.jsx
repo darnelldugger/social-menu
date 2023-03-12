@@ -17,7 +17,7 @@ const Footer = () => {
           }}
         >
           <Grid item xs={3.5}>
-            <Typography variant="h5" fontWeight={900} fontSize={18}>social menu</Typography>
+            <Typography variant="h5" fontWeight={900} fontSize={18}>ocial menu</Typography>
           </Grid>
           <Grid item xs={12} sm={4} sx={{ textAlign: "center" }}>
             <Typography variant="body1">Copyright - 2022</Typography>
