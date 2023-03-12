@@ -18,7 +18,7 @@ const pagesMobile = ['Products', 'Pricing', 'Blog', 'Request Demo', 'Login'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
- 
+
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -29,76 +29,40 @@ function ResponsiveAppBar() {
     setAnchorElNav(null);
   };
 
- 
+
 
   return (
-    <AppBar position="static"  sx={{ pb:1, pt:1, mb:3, backgroundColor: 'white' }}>
+    <AppBar position="static" sx={{ pb: 1, pt: 1, mb: 3, backgroundColor: 'white' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            <img
-              src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
-              height={45}
-              alt="logo"
-            />
-          </Typography>
 
-       
-        
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
+          <Box
+            component='img'
+            src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
+            alt="logo"
             sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
+              height: 45,
+              maxHeight: { xs: 30, md: 45 },
             }}
-          >
-            <img
-              src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
-              height={45}
-              alt="logo"
-            />
-          </Typography>
+          />
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
             /navigation before mobile view
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'text.primary', display: 'block', textTransform: 'none', fontWeight:'300' }}
+                sx={{ my: 2, color: 'text.primary', display: 'block', textTransform: 'none', fontWeight: '300' }}
               >
                 {page}
               </Button>
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end'  }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
 
-          <ButtonLogin />
-          <ButtonSecondary />
+            <ButtonLogin />
+            <ButtonSecondary />
           </Box>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent: 'flex-end' } }}>
@@ -107,10 +71,11 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="text.primary"
+              color='#5e2791'
             >
-              <NotesIcon 
-              sx={{ fontSize: 30 }}
+              <NotesIcon
+                style={{ color: '#5e2791' }}
+                sx={{ fontSize: 40 }}
               />
             </IconButton>
             <Menu
@@ -129,9 +94,9 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: 'block', md: 'none', backgroundColor: 'inherit' },
-                
+
               }}
-              
+
             >
               {pagesMobile.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>

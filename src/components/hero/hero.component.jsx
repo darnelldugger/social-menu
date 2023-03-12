@@ -30,7 +30,7 @@ const Hero = () => {
           <Typography
             variant="h1"
             color= 'text.alert'
-            sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "38px", sm: "46px", md: "62px" } }}
+            sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "32px", sm: "46px", md: "62px" } }}
           >
             Integrating <strong>social media</strong> <br /> with
             <strong> restaurant menus.</strong>
@@ -69,9 +69,10 @@ const Hero = () => {
             </Typography>
             <Typography
               variant="body2"
+              textTransform= 'none'
               sx={{ textAlign: { md: "left", xs: "center" } }}
             >
-              more views when menus have photos
+              More views when menus have photos
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4} md={12}>
@@ -84,8 +85,9 @@ const Hero = () => {
             <Typography
               variant="body2"
               sx={{ textAlign: { md: "left", xs: "center" } }}
+              textTransform= 'none'
             >
-              communication is visual, so is the appetite
+              Communication is visual, so is the appetite
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4} md={12}>
@@ -98,8 +100,9 @@ const Hero = () => {
             <Typography
               variant="body2"
               sx={{ textAlign: { md: "left", xs: "center" } }}
+              textTransform= 'none'
             >
-              people are on social media
+              People are on social media
             </Typography>
           </Grid>
         </Grid>

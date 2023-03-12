@@ -13,6 +13,9 @@ export const themeOptions = createTheme({
     secondary: {
       main: "#f50057",
     },
+    default: {
+      main: "#5e2791"
+    },
     background: {
       default: "#ffffff",
       paper: "#172339",
@@ -21,6 +24,7 @@ export const themeOptions = createTheme({
       secondary: "#faf8f6",
       primary: "#737373",
       alert: "545454",
+      default: "5e2791",
       disabled: "rgba(254,254,254,0.8)",
     },
   },

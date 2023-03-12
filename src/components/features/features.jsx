@@ -35,7 +35,7 @@ export default function Feature() {
           }}
         >
           <Grid item xs={12} md={6} lg={4} >
-            <Item elevation={6} sx={{ minHeight: 100 }}><StarBorderOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }}><StarBorderOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -50,7 +50,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item  elevation={6} sx={{ minHeight: 100 }} ><EmojiEmotionsOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item  elevation={6} sx={{ minHeight: 100 }} ><EmojiEmotionsOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -65,7 +65,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }}  > <AddCommentOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }}  > <AddCommentOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -80,7 +80,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><MobileFriendlyOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><MobileFriendlyOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -95,7 +95,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><RecommendOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><RecommendOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -110,7 +110,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -125,7 +125,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><QrCode2Outlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><QrCode2Outlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -140,7 +140,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><FilterDramaOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><FilterDramaOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -155,7 +155,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><SupportAgentOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SupportAgentOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -170,7 +170,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><EqualizerRounded color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><EqualizerRounded color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -185,7 +185,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><SendOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SendOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -200,7 +200,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><SmartToyOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><SmartToyOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
@@ -215,7 +215,7 @@ export default function Feature() {
             </Item>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><PeopleAltOutlined color='secondary' sx={{ fontSize: '35px' }} />
+            <Item elevation={6} sx={{ minHeight: 100 }} ><PeopleAltOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
                 variant="h5"
                 color='text.primary'
