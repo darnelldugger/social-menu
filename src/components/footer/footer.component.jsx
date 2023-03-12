@@ -17,7 +17,11 @@ const Footer = () => {
           }}
         >
           <Grid item xs={3.5}>
-            <Typography variant="h5" fontWeight={900} fontSize={18}>ocial menu</Typography>
+          <img
+                src="https://res.cloudinary.com/nell1818/image/upload/v1678580542/MENUUI_1_fiabjv.png"
+                height={30}
+                alt="logo"
+              />
           </Grid>
           <Grid item xs={12} sm={4} sx={{ textAlign: "center" }}>
             <Typography variant="body1">Copyright - 2022</Typography>
