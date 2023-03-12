@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import { AddCommentOutlined, DashboardCustomizeOutlined, EmojiEmotionsOutlined, EqualizerRounded, FilterDramaOutlined, MobileFriendlyOutlined, PeopleAltOutlined, QrCode2Outlined, RecommendOutlined, SendOutlined, SmartToyOutlined, StarBorderOutlined, SupportAgentOutlined } from '@mui/icons-material';
+import { AddCommentOutlined, DashboardCustomizeOutlined, EmojiEmotionsOutlined, EqualizerRounded, FilterDramaOutlined, MobileFriendlyOutlined, PeopleAltOutlined, QrCode2Outlined, SendOutlined, SmartToyOutlined, StarBorderOutlined, SupportAgentOutlined } from '@mui/icons-material';
 import { Container, Divider, Typography } from '@mui/material';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -16,11 +16,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Feature() {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" sx={{ backgroundColor: '#5e2791', borderRadius: { xs: 0, md:3 }  }} >
       <Divider variant='middle' />
-      <Box sx={{ maxWidth: '100%', mt: 5 }}>
+      <Box sx={{ maxWidth: '100%', mt: 5, }}>
         <Typography
           variant="h1"
+          color= "white"
           sx={{ display: 'flex', justifyContent: 'center', textAlign:'center', mb: 5, fontSize: { xs: "30px", sm: "45px", md: "55px" } }}
         >
           Features that keep customers engaged with your menu
@@ -94,21 +95,7 @@ export default function Feature() {
               <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Mobile responsive. Fully responsive menu built for mobile, tablet and desktop view.</Typography>
             </Item>
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><RecommendOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Recommend dishes
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Dishes are added to this page based on being recommeneded by users. </Typography>
-            </Item>
-          </Grid>
+        
           <Grid item xs={12} md={6} lg={4}>
             <Item elevation={6} sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography

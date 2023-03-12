@@ -62,7 +62,7 @@ function PricingContent() {
           variant="h1"
           sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', mb: 5, fontSize: { xs: "30px", sm: "45px", md: "55px" } }}
         >
-          Pricing that fits your budget
+          Pricing that fits your restaurant's budget
         </Typography>
       </Container>
       {/* End hero unit */}

@@ -5,17 +5,18 @@ export const StyledButtonLogin = styled(Button)({
   borderRadius: "30px",
   backgroundImage: "none",
   transition: "all .3s",
-  backgroundColor: '#5e2791',
+  backgroundColor: 'white',
   fontWeight: '700',
   borderWidth: 2,
-  color: 'white',
+  color: '#5e2791',
+  borderColor: '#5e2791',
 
 
   "&:hover": {
-    backgroundColor: 'white',
+    backgroundColor: '#5e2791',
     transition: "all .3s",
     borderColor: '#5e2791',
-    color: '#5e2791',
+    color: 'white',
     borderWidth: 2,
     
   },

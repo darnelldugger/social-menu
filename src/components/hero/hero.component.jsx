@@ -1,9 +1,9 @@
 import { Container, Grid, CardMedia, Typography } from "@mui/material";
 import phoneImg from "../../assets/image-hero-landscape@2x.webp";
 import { ReactComponent as Curve } from "../../assets/pattern-curved-line-1.svg";
-import ButtonPrimary from "../buttons/button-primary.component";
 import "./hero.styles.css";
 import heroImage from "../../assets/image-hero-portrait@2x.webp";
+import ButtonSecondary from "../buttons/button-secondary.component";
 
 const Hero = () => {
   return (
@@ -41,7 +41,7 @@ const Hero = () => {
               Social menu is the new way to drive engagement and interactivity while search goers are on your menu. We pride ourselves in making it easier for you to add photos of your dishes. Intergrating the best parts of social media with a menu your patrons would love.{" "}
             </Typography>
           </div>
-          <ButtonPrimary  />
+          <ButtonSecondary  />
         </Grid>
         <Grid
           item

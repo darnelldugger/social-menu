@@ -6,14 +6,14 @@ const Form = () => {
     <>
 
 
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ backgroundColor: '#5e2791', borderRadius: { xs: 0, md: 3 } }}>
         <Card sx={{ mb: 6, backgroundColor: '#5e2791' }}>
           <Typography
             color='text.secondary'
             variant="h1"
             sx={{ display: 'flex', justifyContent: 'center', mb: 0, mt: 5, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
           >
-            <strong> Try the demo today</strong>
+            Try the demo today!
           </Typography>
           <Grid
             container
@@ -43,9 +43,9 @@ const Form = () => {
                 It's just <strong>better.</strong>
               </Typography>
               <Typography variant="subtitle1" sx={{ marginBottom: "40px" }}>
-                “For a restaurant, the menu is the face of their business. The core that attracts 
+                “For a restaurant, the menu is the face of their business. The core that attracts
                 people to their establishment. Our goal is to bring more photos of dishes to menus
-                and automate the menu for the restaurant. Our menu software allows restaurant owners 
+                and automate the menu for the restaurant. Our menu software allows restaurant owners
                 to provide a better experience to their customers across the internet.”
               </Typography>
             </Grid>
@@ -61,21 +61,21 @@ const Form = () => {
                 <Paper
                   style={{ backgroundColor: "#ffffff" }}
 
-                  elevation={24} 
+                  elevation={24}
                   sx={{ width: "100%", p: "1rem" }}
                 >
-                    <Typography
-                variant="subtitle1"
-                color="text.primary"
-                sx={{
-                  fontWeight: "400",
-                  marginBottom: "5px",
-                  textAlign: { xs: "center", md: "left" },
-                  textTransform: 'none'
-                }}
-              >
-                Fill out the form below to get access to the demo
-              </Typography>
+                  <Typography
+                    variant="subtitle1"
+                    color="text.primary"
+                    sx={{
+                      fontWeight: "400",
+                      marginBottom: "5px",
+                      textAlign: { xs: "center", md: "left" },
+                      textTransform: 'none'
+                    }}
+                  >
+                    Fill out the form below to get access to the demo
+                  </Typography>
                   <form
                     autoComplete='off'
                   // onSubmit={handleSubmit}

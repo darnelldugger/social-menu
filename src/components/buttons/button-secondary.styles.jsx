@@ -6,10 +6,15 @@ export const StyledButtonSecondary = styled(Button)({
   padding: "12px 24px",
   borderColor: '#38b6ff',
   fontWeight: '300',
+  backgroundColor: '#38b6ff',
+  color: 'white',
 
   "&:hover": {
-    color: "white",
-    backgroundColor: "#38b6ff",
-    borderColor: '#38b6ff',
+    backgroundColor: '#5e2791',
+    transition: "all .3s",
+    borderColor: '#5e2791',
+    color: 'white',
+    borderWidth: 2,
+    
   },
 });
