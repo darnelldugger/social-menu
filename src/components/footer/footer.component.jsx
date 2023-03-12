@@ -18,7 +18,7 @@ const Footer = () => {
         >
           <Grid item xs={3.5}>
           <img
-                src="https://res.cloudinary.com/nell1818/image/upload/v1678580542/MENUUI_1_fiabjv.png"
+                src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
                 height={30}
                 alt="logo"
               />

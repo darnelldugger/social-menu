@@ -11,7 +11,7 @@ const NavBar = () => {
         <Toolbar>
           <Typography variant="h4" fontSize='30px' color='text.primary' component="div" sx={{ flexGrow: 1 }}>
             <img
-              src="https://res.cloudinary.com/nell1818/image/upload/v1678589483/MENUUI_2_m2x8w3.png"
+              src="https://res.cloudinary.com/nell1818/image/upload/v1678603710/MENUUI_6_o6upjt.png"
               height={45}
               alt="logo"
             />
