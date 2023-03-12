@@ -24,7 +24,8 @@ const Hero = () => {
           }}
         >
           <div className="hero-svg">
-            <Curve />
+            <Curve 
+            />
           </div>
 
           <Typography

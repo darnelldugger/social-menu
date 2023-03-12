@@ -13,8 +13,8 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const pagesMobile = ['Products', 'Pricing', 'Blog', 'Request Demo', 'Login'];
+const pages = ['Features', 'How it works', 'Pricing', 'Blog'];
+const pagesMobile = ['Features', 'How it works', 'Pricing','Blog', 'Request Demo', 'Login'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -52,8 +52,9 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'text.primary', display: 'block', textTransform: 'none', fontWeight: '300' }}
+                sx={{ my: 2, display: 'block', textTransform: 'none', fontWeight: '500' }}
               >
+                
                 {page}
               </Button>
             ))}

@@ -29,7 +29,7 @@ export const themeOptions = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Epilogue" , sans-serif',
+    fontFamily: '"Montserrat" , sans-serif',
     h1: {
       fontWeight: 400,
       fontSize: 72,
@@ -78,4 +78,6 @@ export const themeOptions = createTheme({
   shape: {
     borderRadius: 15,
   },
+
+
 });

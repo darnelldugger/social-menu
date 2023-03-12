@@ -21,9 +21,9 @@ export default function Feature() {
       <Box sx={{ maxWidth: '100%', mt: 5 }}>
         <Typography
           variant="h1"
-          sx={{ display: 'flex', justifyContent: 'center', mb: 5, fontSize: { xs: "38px", sm: "56px", md: "72px" } }}
+          sx={{ display: 'flex', justifyContent: 'center', textAlign:'center', mb: 5, fontSize: { xs: "30px", sm: "45px", md: "55px" } }}
         >
-          <strong> Features</strong>
+          Features that keep customers engaged with your menu
         </Typography>
         <Grid container rowSpacing={{ xs: 3, sm: 6, md: 6 }} columnSpacing={{ xs: 3, sm: 3, md: 3 }}
           sx={{
