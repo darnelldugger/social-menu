@@ -57,7 +57,7 @@ function PricingContent() {
     <Box
       sx={{ mb: 16 }}
     >
-      <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
+      <Container disableGutters maxWidth="md" component="main" sx={{ pt: 8, pb: 6 }}>
         <Typography
           variant="h1"
           sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', mb: 5, fontSize: { xs: "30px", sm: "45px", md: "55px" } }}

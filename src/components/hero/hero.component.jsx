@@ -1,4 +1,4 @@
-import { Container, Grid, CardMedia, Typography } from "@mui/material";
+import { Container, Grid, CardMedia, Typography, Box } from "@mui/material";
 import phoneImg from "../../assets/image-hero-landscape@2x.webp";
 import { ReactComponent as Curve } from "../../assets/pattern-curved-line-1.svg";
 import "./hero.styles.css";
@@ -7,7 +7,7 @@ import ButtonSecondary from "../buttons/button-secondary.component";
 
 const Hero = () => {
   return (
-    <Container maxWidth="lg" sx={{ marginBottom: { xs: "50px" } }}>
+    <Container maxWidth="lg" sx={{ marginBottom: { xs: "50px", } }}>
       <Grid container>
         <Grid
           item
@@ -24,24 +24,28 @@ const Hero = () => {
           }}
         >
           <div className="hero-svg">
-            <Curve 
+            <Curve
             />
           </div>
 
           <Typography
             variant="h1"
-            color= 'text.alert'
+            color='text.alert'
             sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, fontSize: { xs: "32px", sm: "46px", md: "62px" } }}
           >
-            Integrating <strong>social media</strong> <br /> with
-            <strong> restaurant menus.</strong>
+            Be ready <strong>for diners</strong> <br /> with an
+            <strong> interactive menu</strong>
           </Typography>
           <div className="hero-p">
-            <Typography variant="subtitle1" color= 'text.primary' sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, maxWidth: { xs: 460, sm: 325 }, pl: { xs: 3, sm: 0 }, pr: { xs: 3, sm: 0 } }}>
-              Social menu is the new way to drive engagement and interactivity while search goers are on your menu. We pride ourselves in making it easier for you to add photos of your dishes. Intergrating the best parts of social media with a menu your patrons would love.{" "}
+            <Typography variant="subtitle1" color='text.primary' sx={{ textAlign: { xs: 'center', sm: 'left', md: 'left' }, maxWidth: { xs: 460, sm: 325 }, pl: { xs: 3, sm: 0 }, pr: { xs: 3, sm: 0 } }}>
+              Diners are searching for photos of dishes you serve. Getting in front of diners is half the battle. And with Menuverse, your restaurant's menu will standout from the rest.
             </Typography>
           </div>
-          <ButtonSecondary  />
+          <Box
+          sx={{ display: 'flex', justifyContent: { xs: 'center', md: "flex-start" } }}
+          >
+            <ButtonSecondary />
+          </Box>
         </Grid>
         <Grid
           item
@@ -70,7 +74,7 @@ const Hero = () => {
             </Typography>
             <Typography
               variant="body2"
-              textTransform= 'none'
+              textTransform='none'
               sx={{ textAlign: { md: "left", xs: "center" } }}
             >
               More views when menus have photos
@@ -86,7 +90,7 @@ const Hero = () => {
             <Typography
               variant="body2"
               sx={{ textAlign: { md: "left", xs: "center" } }}
-              textTransform= 'none'
+              textTransform='none'
             >
               Communication is visual, so is the appetite
             </Typography>
@@ -101,7 +105,7 @@ const Hero = () => {
             <Typography
               variant="body2"
               sx={{ textAlign: { md: "left", xs: "center" } }}
-              textTransform= 'none'
+              textTransform='none'
             >
               People are on social media
             </Typography>

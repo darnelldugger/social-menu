@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import { AddCommentOutlined, DashboardCustomizeOutlined, EmojiEmotionsOutlined, EqualizerRounded, FilterDramaOutlined, MobileFriendlyOutlined, PeopleAltOutlined, QrCode2Outlined, SendOutlined, SmartToyOutlined, StarBorderOutlined, SupportAgentOutlined } from '@mui/icons-material';
+import { AddCommentOutlined, EmojiEmotionsOutlined, EqualizerRounded, QrCode2Outlined, StarBorderOutlined, SupportAgentOutlined } from '@mui/icons-material';
 import { Container, Divider, Typography } from '@mui/material';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Feature() {
   return (
-    <Container maxWidth="lg" sx={{ backgroundColor: '#5e2791', borderRadius: { xs: 0, md:3 }  }} >
+    <Container minWidth="lg" sx={{ backgroundColor: '#5e2197', borderRadius: { xs: 0, md:3 }  }} >
       <Divider variant='middle' />
       <Box sx={{ maxWidth: '100%', mt: 5, }}>
         <Typography
@@ -80,37 +80,7 @@ export default function Feature() {
               <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Comments system built into the user facing menu. Users can comment, like and reply on a dish.</Typography>
             </Item>
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><MobileFriendlyOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Ditch pdf's
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Mobile responsive. Fully responsive menu built for mobile, tablet and desktop view.</Typography>
-            </Item>
-          </Grid>
         
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><DashboardCustomizeOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Admin dashboard
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Interactive dashboard built to help you upload photos of your dishes fast and efficiently</Typography>
-            </Item>
-          </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <Item elevation={6} sx={{ minHeight: 100 }} ><QrCode2Outlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
@@ -126,21 +96,7 @@ export default function Feature() {
               <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Contactless menus are here to stay. Create a QR code for your menu link.</Typography>
             </Item>
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><FilterDramaOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Cloud Hosting
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }}>Hosting data in the cloud brings powerful security keeping users information safe.</Typography>
-            </Item>
-          </Grid>
+
           <Grid item xs={12} md={6} lg={4}>
             <Item elevation={6} sx={{ minHeight: 100 }} ><SupportAgentOutlined color='default' sx={{ fontSize: '35px' }} />
               <Typography
@@ -152,7 +108,7 @@ export default function Feature() {
                 }}
               >
                 Help & support
-              </Typography>
+              </Typography>/static/1678306332/pages/wp-content/uploads/2022/11/link-in-bio-lp-mobile-hero-new-v2.png
               <Typography color='primary' textTransform='none' sx={{ p: 2 }} >24/7 support to help build and maintain your menu. Just add photos of your dishes.</Typography>
             </Item>
           </Grid>
@@ -171,51 +127,8 @@ export default function Feature() {
               <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Analytics dashboard to help you understand click through rates on specific dishes.</Typography>
             </Item>
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><SendOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Messaging
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Utilize cloud messaging to send pre-defined offers to yours subscribers. </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><SmartToyOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                Machine learning
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Built in machine learning to train your menu to understand user behavior for direct marketing. </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} md={6} lg={4}>
-            <Item elevation={6} sx={{ minHeight: 100 }} ><PeopleAltOutlined color='default' sx={{ fontSize: '35px' }} />
-              <Typography
-                variant="h5"
-                color='text.primary'
-                sx={{
-                  textAlign: 'center', fontSize: '24px',
-                  textTransform: 'none'
-                }}
-              >
-                User authentication
-              </Typography>
-              <Typography color='primary' textTransform='none' sx={{ p: 2 }} >Built in user authentication. Ability to sign in with Google, Facebook, Apple, email or phone number. </Typography>
-            </Item>
-          </Grid>
+
+
 
         </Grid>
       </Box>
