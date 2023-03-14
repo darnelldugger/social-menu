@@ -6,7 +6,12 @@ const Form = () => {
     <>
 
 
-      <Container maxWidth="lg" sx={{ backgroundColor: '#5e2791', borderRadius: { xs: 0, md: 3 } }}>
+      <Container maxWidth="lg" 
+        sx={{ 
+            backgroundColor: '#5e2791', 
+            borderRadius: { xs: 0, md: 3 },
+            mt: { xs: 10, md: 17 },
+            }}>
         <Card sx={{ mb: 6, backgroundColor: '#5e2791' }}>
           <Typography
             color='text.secondary'
@@ -56,7 +61,6 @@ const Form = () => {
                 justifyContent="center"
                 alignItems="center"
                 maxWidth="500px"
-
               >
                 <Paper
                   style={{ backgroundColor: "#ffffff" }}

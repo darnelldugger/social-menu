@@ -17,8 +17,8 @@ function App() {
       <NavBar />
       <Hero />
       <ProductExp />
-      <HowItWorks />
       <Feature />
+      <HowItWorks />
       <Form />
       <Footer />
     </ThemeProvider>

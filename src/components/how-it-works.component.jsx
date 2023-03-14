@@ -18,7 +18,7 @@ function ProductHowItWorks() {
   return (
     <Container
       sx={{
-        mt: 10,
+        mt: { xs: 10, md: 17 },
         backgroundColor: '#f3ede7;',
         borderRadius: { xs: 0, md: 3 },
       }}

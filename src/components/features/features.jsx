@@ -16,7 +16,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Feature() {
   return (
-    <Container minWidth="lg" sx={{ backgroundColor: '#5e2197', borderRadius: { xs: 0, md:3 }  }} >
+    <Container minWidth="lg" 
+    sx={{ 
+        backgroundColor: '#5e2197', 
+        borderRadius: { xs: 0, md:3 },
+        mt: { xs: 10, md: 17 }
+        }} >
       <Divider variant='middle' />
       <Box sx={{ maxWidth: '100%', mt: 5, }}>
         <Typography
@@ -108,7 +113,7 @@ export default function Feature() {
                 }}
               >
                 Help & support
-              </Typography>/static/1678306332/pages/wp-content/uploads/2022/11/link-in-bio-lp-mobile-hero-new-v2.png
+              </Typography>
               <Typography color='primary' textTransform='none' sx={{ p: 2 }} >24/7 support to help build and maintain your menu. Just add photos of your dishes.</Typography>
             </Item>
           </Grid>
